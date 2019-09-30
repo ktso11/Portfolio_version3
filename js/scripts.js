@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
   $('.overlay').mouseover(function(){
-    $(this).css('background-color', "#6FCF97")
+    $(this).css('background-color', "#F9F8F8")
   });
   $('.overlay').mouseout(function(){
     $(this).css('background-color', "white")
