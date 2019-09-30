@@ -172,7 +172,6 @@ a:hover {
 
 /* Contact Me */
 .contact-icons{
-  /* width: 90%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -184,7 +183,7 @@ a:hover {
 }
 
 .contact-links {
-  width: 20em;
+  /* width: 20em; */
   margin-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -204,10 +203,14 @@ a:hover {
   }
   .contact-icons{
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   .contact-links {
-    margin: 0 auto;
-    display: inline-block;
+    /* margin: 0 auto; */
+    width: 2em;
+    display: inline;
   }
 
   .footer-icons{
