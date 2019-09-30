@@ -3,8 +3,12 @@ body {
   margin: 0;
   color: #4F4F4F;
 }
+a {
+  color: #4F4F4F;
+}
 
 a:hover {
+  text-decoration: none;
   color: #BDBDBD;
 }
 
@@ -110,7 +114,6 @@ a:hover {
 .project-type {
   height: 1.5em;
 
-
 }
 
 .overlay {
@@ -125,14 +128,26 @@ margin-bottom: 1.5em;
   /* width: 300px; */
 }
 
-/* Projects */
-.projectDescription p{
-  margin: 1em 1em
+/* Projects & Projet Pages*/
+
+.projectDescription {
+  margin-bottom: 1.5em;
+  padding: 1em 1em;
+
 }
 
-.gitlogo{
-  width:40px;
-  height: 40px;
+.project-link, .project-name{
+  text-align: center;
+  display: block;
+
+}
+
+.mini-projects h5{
+  display: inline;
+}
+
+.mini-projects p {
+  margin-bottom: 1.25em;
 }
 /* About me */
 
@@ -147,14 +162,44 @@ h3, h4 {
 }
 
 /* Contact Me */
-.contact-icons i{
+.contact-icons{
+  width: 90%;
+}
+
+.contact-icons i, .footer-icons i{
   margin: auto .5em;
+
+}
+.contact-links {
+  margin-left: 30%;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+
+
 }
 
 
 @media screen and (max-width: 680px){
   .fadeFromRight, .fadeFromLeft{
     opacity: 0.25;
+  }
+
+/* remove text from contact me co */
+  .contact-links span {
+    display: none;
+  }
+  .contact-icons{
+    text-align: center;
+  }
+  .contact-links {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .footer-icons{
+    display: none;
   }
 
 }
