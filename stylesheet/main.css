@@ -209,7 +209,8 @@ a:hover {
   }
   .contact-links {
     /* margin: 0 auto; */
-    width: 2em;
+    width: 2.25em;
+    margin: auto 1.5em;
     display: inline;
   }
 
