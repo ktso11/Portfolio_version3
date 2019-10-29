@@ -1,3 +1,3 @@
-9/24/19
+10/29/2019
 
-V3 of Portfolio is up. Thank you for visiting, More design and development work will be added soon.
+This version is no longer up to date. Please refer to http://katie-so.com for the latest version of my portfolio. 
